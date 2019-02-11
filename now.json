@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [{ "src": "date.js", "use": "@now/node", "config": { "maxLambdaSize": "15mb" }}],
+  "public": true,
+  "regions": ["gru"]
+}
