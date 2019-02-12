@@ -1,5 +1,5 @@
-import mjml2html from 'mjml'
+const addtwo = require('./src/addtwo')
 
-export default (req, res) => {
+module.exports = (req, res) => {
   res.end(`The date is ${Date.now()}`)
 }

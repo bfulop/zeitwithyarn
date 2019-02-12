@@ -4,7 +4,5 @@
   "main": "index.js",
   "author": "Balint Fulop <bfulop@mac.com> (http://abundancia.io/)",
   "license": "MIT",
-  "dependencies": {
-    "mjml": "^4.3.1"
-  }
+  "dependencies": {}
 }
