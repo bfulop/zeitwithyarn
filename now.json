@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": [{ "src": "bundle/date.js", "use": "@now/node"}],
+  "builds": [{ "src": "dist/index.js", "use": "@now/node"}],
   "public": true,
   "regions": ["gru"]
 }
