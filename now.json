@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": [{ "src": "date.js", "use": "@now/node", "config": { "maxLambdaSize": "15mb" }}],
+  "builds": [{ "src": "bundle/date.js", "use": "@now/node"}],
   "public": true,
   "regions": ["gru"]
 }
