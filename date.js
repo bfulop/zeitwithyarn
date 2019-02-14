@@ -1,5 +1,25 @@
-const addtwo = require('./src/addtwo')
+import mjml2html from 'mjml'
+import uglify from 'uglify-js'
 
-module.exports = (req, res) => {
-  res.end(`The date is ${Date.now()}`)
-}
+/*
+  Compile an mjml string
+*/
+const htmlOutput = mjml2html(`
+  <mjml>
+    <mj-body>
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Hello World!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-body>
+  </mjml>
+`, {})
+
+
+/*
+  Print the responsive HTML generated and MJML errors if any
+*/
+console.log(htmlOutput)

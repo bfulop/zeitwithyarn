@@ -4,5 +4,13 @@
   "main": "index.js",
   "author": "Balint Fulop <bfulop@mac.com> (http://abundancia.io/)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "mjml": "^4.3.1",
+    "uglify-js": "^3.4.9"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
 }
